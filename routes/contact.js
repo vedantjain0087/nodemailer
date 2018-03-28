@@ -12,8 +12,8 @@ router.post('/send',function(req,res,next){
   var transporter = nodemailer.createTransport({
 service : 'Gmail',
 auth :{
-  user:'vedant.1610184@kiet.edu',
-  pass:'matterofconnectclips@#'
+  user:'email',
+  pass:'password'
 }
 });
 var mailOptions = {
