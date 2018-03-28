@@ -19,7 +19,7 @@ auth :{
 var mailOptions = {
 
   from : req.body.name +'<'+req.body.email+'>',
-  to: 'guptashreeyanshi97@gmail.com',
+  to: 'email',
   subject: 'This was the subject',
   text : 'Name ' + req.body.name + 'Email ' +req.body.email + 'Message ' + req.body.message,
   html : '<p><h1>ThiS was HTml</h1> Name ' + req.body.name + 'Email ' +req.body.email + 'Message ' + req.body.message+'</p>'
